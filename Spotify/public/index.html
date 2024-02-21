@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Spotify Clone</h1>
+    </header>
+    <main>
+        <div class="search">
+            <input type="text" id="searchInput" placeholder="Search for a song">
+            <button onclick="search()">Search</button>
+        </div>
+        <div id="searchResults"></div>
+        <div class="playlist">
+            <input type="text" id="playlistInput" placeholder="Enter playlist name">
+            <button onclick="createPlaylist()">Create Playlist</button>
+        </div>
+        <div class="user-profile">
+            <button onclick="getUserProfile()">View Profile</button>
+            <div id="userProfile"></div>
+        </div>
+        <div class="logout">
+            <button onclick="logout()">Logout</button>
+        </div>
+    </main>
+    <footer>
+        <audio id="audioPlayer" controls></audio>
+    </footer>
+
+    <script src="/app.js"></script>
+</body>
+</html>

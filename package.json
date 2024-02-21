@@ -1,0 +1,14 @@
+{
+  "name": "spotify-clone",
+  "version": "1.0.0",
+  "description": "A Spotify clone application",
+  "main": "src/spotify-auth.js",
+  "scripts": {
+    "start": "node src/spotify-auth.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0",
+    "querystring": "^0.2.1"
+  }
+}
